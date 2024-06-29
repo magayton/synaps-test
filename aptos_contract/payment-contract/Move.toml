@@ -1,0 +1,17 @@
+[package]
+name = "payment"
+version = "1.0.0"
+authors = ["Mathis Gayton"]
+
+[addresses]
+payment = "_"
+
+[dev-addresses]
+payment = "0x1337"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

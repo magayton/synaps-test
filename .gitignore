@@ -1,0 +1,10 @@
+# Binary generated from the golang_backend
+golang_backend/aptos 
+
+# Payment contract build and coverage ignore
+aptos_contract/payment-contract/build
+aptos_contract/payment-contract/.*
+
+# Soulbound contract build and coverage ignore
+aptos_contract/soulbound_contract/build
+aptos_contract/soulbound_contract/.*
